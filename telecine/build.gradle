@@ -22,14 +22,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
 android {
-  compileSdkVersion 23
-  buildToolsVersion '23.0.3'
+  compileSdkVersion 'android-N'
+  buildToolsVersion '24.0.0-rc3'
 
   defaultConfig {
     applicationId 'com.jakewharton.telecine'
 
-    minSdkVersion 21
-    targetSdkVersion 22
+    minSdkVersion 'N'
+    targetSdkVersion 'N'
 
     versionCode versionMajor * 1000000 + versionMinor * 10000 + versionPatch * 100 + versionBuild
     versionName "${versionMajor}.${versionMinor}.${versionPatch}"
